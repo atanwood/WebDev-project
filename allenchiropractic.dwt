@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- TemplateBeginEditable name="doctitle" -->
-<title>Paws4U - Template</title>
+<title>Allen Chiropractic - Template</title>
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
@@ -69,12 +69,19 @@ function randomImages(){
   
   <nav>
 		<ul>
-			<li><a href="">HOME</a></li>
-			<li><a href="">SERVICES</a></li>
-			<li><a href="">ADOPTIONS</a></li>
-		
-		  <li><a href="">ABOUT US</a></li>
-			<li><a href="">PHOTOS</a></li>
+			<li><a href="">Home</a></li>
+			<li><a href="">Meet the Doctor</a></li>
+			<li><a href="">Services</a></li>
+			<li><a href="">Appointments</a></li>
+			<li><a href="">Directions</a></li>
+			<li><a href="">Contact Us</a></li>
+			<li><a href="">Photos</a></li>
+		  	<li><a href="">What to Expect</a></li>
+			<li><a href="">Sitemap</a></li>
+			<li><a href="">Credits</a></li>
+			<li><a href="">Feedback</a></li>
+			<li><a href="">Videos</a></li>
+			<li><a href="">FAQ</a></li>
 		  
     </ul>
 	  <p>&nbsp;</p>
@@ -82,7 +89,8 @@ function randomImages(){
 	</nav>
 	 
 	</header>
-	<aside><!-- TemplateBeginEditable name="right panel" -->right panel<!-- TemplateEndEditable --></aside>
+	<aside><!-- TemplateBeginEditable name="right panel" --><h1>Dr Allens Office Hours:</h1>
+		<p>Mon-Wed-Fri<br>9am-12pm; 2pm-6pm<br><br>Sat<br>8am-11am</p><br><br><br><h1>Contact Us:</h1><p>(770) 943-8409<br><a href = "mailto:allenchiropractic@bellsouth.net">allen.chiropractic@bellsouth.net</a></p><!-- TemplateEndEditable --></aside>
 	<main><!-- TemplateBeginEditable name="maincontent" -->maincontent<!-- TemplateEndEditable --></main>
   <footer> <a href="#">Home</a> | <a href="">Locations</a> | Contact Us | <a href="">Feedback</a> <br />Allen Chiropractic Copyright &copy; 2022</footer>
 </div>
