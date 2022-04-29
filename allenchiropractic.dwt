@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Paws4U - Template</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/allencss.css" rel="stylesheet" type="text/css">
+
+<!-- TemplateParam name="rightpanel" type="boolean" value="true" -->
+
+	<style>
+		td{ font-size: 12px;}
+	</style>
+<script type="text/JavaScript"> 
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+ 
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+ 
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+ 
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+// Comma separated list of images to rotate
+var imgs = new Array();
+// delay in milliseconds between image swaps 1000 = 1 second
+var delay = 2000;
+var counter = 0;
+ 
+function preloadImgs(){
+  for(var i=0;i<imgs.length;i++){
+    MM_preloadImages(imgs[i]);
+  }
+}
+ 
+function randomImages(){
+  if(counter == (imgs.length)){
+    counter = 0;
+  }
+  MM_swapImage('rotator', '', imgs[counter++]);
+  setTimeout('randomImages()', delay);
+}
+//-->
+</script> 
+
+</head>
+
+<body onload="preloadImgs();randomImages();">
+<div id="container">
+	
+	<header><img src="images/allenchiropracticheader.jpg" width="100%" height="150" alt="" />
+  
+  <nav>
+		<ul>
+			<li><a href="">HOME</a></li>
+			<li><a href="">SERVICES</a></li>
+			<li><a href="">ADOPTIONS</a></li>
+		
+		  <li><a href="">ABOUT US</a></li>
+			<li><a href="">PHOTOS</a></li>
+		  
+    </ul>
+	  <p>&nbsp;</p>
+	  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23D50000&ctz=America%2FNew_York&showTitle=0&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZmFtaWx5MDA2MTQ4MDUzNzEyMjU1ODUwMTlAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%2333B679&color=%23B39DDB&color=%237986CB" style="border:solid 1px #777" width="200" height="200" frameborder="0" scrolling="no"></iframe>
+	</nav>
+	 
+	</header>
+	<aside><!-- TemplateBeginEditable name="right panel" -->right panel<!-- TemplateEndEditable --></aside>
+	<main><!-- TemplateBeginEditable name="maincontent" -->maincontent<!-- TemplateEndEditable --></main>
+  <footer> <a href="#">Home</a> | <a href="">Locations</a> | Contact Us | <a href="">Feedback</a> <br />Allen Chiropractic Copyright &copy; 2022</footer>
+</div>
+</body>
+</html>
