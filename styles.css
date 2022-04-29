@@ -30,6 +30,7 @@ aside {
 		float:right;
 		width:200px;
 		padding:5px;
+	text-align: center
 }
 aside img {
 	margin: 0 auto;
