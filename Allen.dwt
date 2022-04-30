@@ -20,7 +20,6 @@
                     <a href="chiropractic.html">Chiropractic</a>
                     <ul>
                         <li><a href="faq.html">FAQ</a></li>
-                        <li><a href="wellness.html">Wellness</a></li>
                         <li><a href="credits.html">Credits</a></li>
                         <li><a href="aboutus.html">About Us</a></li>
                         <li><a href="privacy.html">Notice of Privacy Practices</a></li>
@@ -30,7 +29,19 @@
                 <li><a href="directions.html">Directions</a></li>
                 <li><a href="feedback.html">Feedback</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+		<li>
+			<a href="chiropractic.html">Wellness</a>
+					<ul>
+                        <li><a href="wellness-spine.html">Spine</a></li>
+                        <li><a href="wellness-ankle.html">Ankle</a></li>
+                        <li><a href="wellness-elbow.html">Elbow</a></li>
+                        <li><a href="wellness-knee.html">Knee</a></li>
+						<li><a href="wellness-wrist.html">Wrist</a></li>
+						<li><a href="wellness-shoulders.html">Shoulders</a></li>
+						<li><a href="wellness-neck.html">Neck</a></li>
+						<li><a href="wellness-hips.html">Hips</a></li>
+                    </ul>
+			</li>
         </nav>
     </header>
 	</div>
