@@ -12,7 +12,9 @@ body {
 	background: #f9f5ef;
 	color: #394649;
 }
-
+div {border:"1"}
+img {border: "1"}
+table {border: "1"}
 h1, h2, h3, h4 {
 	color: #dd666c;	
 }
