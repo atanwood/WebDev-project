@@ -48,8 +48,7 @@ h1 {
 	color: #548392;
 }
 
-@media all and (min-width: 22em) {
-	padding: 1.5em 0}
+@media all and (min-width:22em){padding{padding: 1.5em}}
 
 h1:after {
 	content: "";
@@ -321,8 +320,8 @@ footer li {
 	overflow: hidden;
 }
 
-.slider iframe,  {
-	border-radius: 0;
+.slider iframe  
+{border-radius: 0;
 	display: block;
 	margin: 0 auto 2em;
 }
