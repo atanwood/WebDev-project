@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,12 +9,12 @@
 </head>
 <body>
 <div class="container">
-    <header role="banner">
+    <header>
         <a href="index.html" class="logo">
             <h3>Allen Chiropractic</h3>
             <h4>Chiropractic, Nutritional Support, and Exercise</h4>
         </a>
-        <nav role="navigation" class="nav">
+        <nav class="nav">
             <ul>
                 <li>
                     <a href="chiropractic.html">Chiropractic</a>
@@ -49,7 +49,7 @@
 	<main><!-- TemplateBeginEditable name="main content" -->
 	  main content
 	<!-- TemplateEndEditable --></main>
-	 <footer role="contentinfo">
+	 <footer>
         <div class="footer-container">
             <div class="footer-section">
                 <h2><a href="conditions.html">Services Provided</a></h2>
